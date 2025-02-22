@@ -1,0 +1,114 @@
+Datasets ( All are sourced from Kaggle.com/datasets ): 
+
+1 - shudhanshusingh/250k-medicines-usage-side-effects-and-substitutes
+
+	Reason : 
+	Large dataset (250k entries) = rich information.
+	Crucial for analyzing side effects and offering substitute recommendations, aligning perfectly with personalized recommendations.
+	Supports risk analysis by matching patient reviews with common adverse effects.
+
+2 - prathamtripathi/drug-classification
+
+	Reason :
+	Helps in categorizing drugs based on therapeutic use, chemical composition, or pharmacological effects.
+	Essential for building classification models that personalize recommendations based on patient history and drug categories.
+
+3 - tajuddinkh/drugs-prescriptions-with-providers
+
+	Reason :
+	Adds a real-world prescription dimension, showing how providers prescribe drugs.
+	Helps incorporate a provider-based filtering feature in the recommendation engine (e.g., suggesting drugs commonly prescribed by top providers for similar conditions).
+
+4 - milanzdravkovic/pharma-sales-data
+
+	Reason :
+	Integrates popularity metrics through sales data, providing insights into widely accepted medications.
+	Useful for trend analysis: Do highly-rated drugs correlate with high sales?
+	Supports demand-based recommendations, balancing patient preferences with market trends.
+
+5 -  mohneesh7/indian-medicine-data
+
+	Reason :
+	Introduces geographical diversity, allowing exploration of regional preferences.
+	Supports location-specific recommendations, making the system adaptable for region-based personalization.
+	Allows comparison with global datasets, adding depth to the model’s adaptability.
+
+
+Dataset Accessibility and Compliance :
+
+ - All datasets were accessed through Kaggle and verified for public availability.
+ - Licensing terms for each dataset were reviewed to ensure compliance with usage policies.
+ - The data is used strictly for research and analysis purposes, adhering to the specified licensing agreements.
+
+Dataset Summaries : 
+
+1. Medicine Prescription Records
+
+	File Name: medicine_prescription_records.csv
+	Dimensions: 239,930 rows × 4 columns
+	Description: Contains records of medications prescribed by healthcare providers across different specialties.
+
+	Variables:
+	specialty (String): Medical specialty of the provider (e.g., Nephrology, General Practice).
+	years_practicing (Integer): Number of years the provider has been practicing.
+	cms_prescription_counts (String): Comma-separated list of drugs prescribed by the provider.
+
+2. Medicine Dataset
+
+	File Name: medicine_dataset.csv
+	Dimensions: 248,218 rows × 58 columns
+	Description: Comprehensive dataset containing drug information, substitutes, side effects, and classifications.
+
+	Variables:
+	name (String): Name of the medicine.
+	substitute0 - substitute4 (String): Suggested substitutes for the medicine.
+	sideEffect0 - sideEffect41 (String): Potential side effects associated with the medicine.
+	use0 - use4 (String): Primary medical uses of the drug.
+	Chemical Class (String): Chemical classification of the drug.
+	Therapeutic Class (String): Therapeutic classification.
+	Action Class (String): Pharmacological action class of the drug.
+
+3. Medicine Data
+
+	File Name: medicine_data.csv
+	Dimensions: 195,605 rows × 8 columns
+	Description: Details on medicines including pricing, manufacturers, descriptions, and drug interactions.
+
+	Variables:
+	sub_category (String): Subcategory of the drug (e.g., Human Insulin Basal).
+	product_name (String): Name of the product.
+	salt_composition (String): Composition of the drug.
+	product_price (String): Price of the product.
+	product_manufactured (String): Manufacturer of the drug.
+	medicine_desc (String): Description of the medicine.
+	side_effects (String): Common side effects.
+	drug_interactions (JSON): List of known drug interactions.
+
+4. Patient Drug Reviews
+
+	File Name: drugsComTrain_raw.csv
+	Dimensions: 161,297 rows × 7 columns
+	Description: Patient-generated reviews for various medications along with ratings and conditions treated.
+
+	Variables:
+	uniqueID (Integer): Unique identifier for each review.
+	drugName (String): Name of the drug reviewed.
+	condition (String): Condition for which the drug was taken.
+	review (String): Patient’s written review.
+	rating (Integer): Rating of the drug (1–10 scale).
+	date (String): Date when the review was posted.
+	usefulCount (Integer): Number of users who found the review helpful.
+
+5. Drug Classification Dataset
+
+	File Name: drug200.csv
+	Dimensions: 200 rows × 6 columns
+	Description: Dataset linking patient demographic and health characteristics to drug prescriptions.
+
+	Variables:
+	Age (Integer): Age of the patient.
+	Sex (String): Gender of the patient (M/F).
+	BP (String): Blood pressure category (HIGH, NORMAL, LOW).
+	Cholesterol (String): Cholesterol level (HIGH, NORMAL).
+	Na_to_K (Float): Sodium-to-Potassium ratio in the blood.
+	Drug (String): Drug prescribed.
