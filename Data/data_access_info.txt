@@ -1,23 +1,24 @@
 Datasets ( All are sourced from Kaggle.com/datasets ): 
 
 1 - shudhanshusingh/250k-medicines-usage-side-effects-and-substitutes
-
-	Reason : 
-	Large dataset (250k entries) = rich information.
-	Crucial for analyzing side effects and offering substitute recommendations, aligning perfectly with personalized recommendations.
+    (https://www.kaggle.com/datasets/shudhanshusingh/250k-medicines-usage-side-effects-and-substitutes)
+	Reason : Large dataset (250k entries) = rich information.
+	Crucial for analyzing side effects and offering substitute recommendations,aligning perfectly with personalized recommendations.
 	Supports risk analysis by matching patient reviews with common adverse effects.
 
 2 - prathamtripathi/drug-classification
+    (https://www.kaggle.com/code/ihsncnkz/decision-tree-and-random-forest-classifier-models/input)
 
 	Reason :
 	Helps in categorizing drugs based on therapeutic use, chemical composition, or pharmacological effects.
 	Essential for building classification models that personalize recommendations based on patient history and drug categories.
 
 3 - tajuddinkh/drugs-prescriptions-with-providers
-
+    (https://www.kaggle.com/datasets/tajuddinkh/drugs-prescriptions-with-providers)
+    
 	Reason :
 	Adds a real-world prescription dimension, showing how providers prescribe drugs.
-	Helps incorporate a provider-based filtering feature in the recommendation engine (e.g., suggesting drugs commonly prescribed by top providers for similar conditions).
+	Helps incorporate a provider-based filtering feature in the recommendation engine (e.g., suggesting drugs commonly prescribed by            top providers for similar conditions).
 
 4 - milanzdravkovic/pharma-sales-data
 
@@ -27,6 +28,7 @@ Datasets ( All are sourced from Kaggle.com/datasets ):
 	Supports demand-based recommendations, balancing patient preferences with market trends.
 
 5 -  mohneesh7/indian-medicine-data
+     (https://www.kaggle.com/code/mohneesh7/basic-information/input)
 
 	Reason :
 	Introduces geographical diversity, allowing exploration of regional preferences.
