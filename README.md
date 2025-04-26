@@ -70,3 +70,34 @@ cap5771sp25-project/
 │
 ├── requirements.txt          # pip dependencies
 └── environment.yml           # Conda environment spec
+
+---
+
+## 5. Setup Instructions
+# 1. Clone the repo
+git clone https://github.com/<username>/cap5771sp25-project.git
+cd cap5771sp25-project
+
+# 2. Create & activate a venv
+python3 -m venv venv
+source venv/bin/activate
+
+# 3. Install dependencies
+pip install --upgrade pip
+pip install -r requirements.txt
+
+# Or using Conda:
+conda env create -f environment.yml
+conda activate cap5771
+
+---
+
+## 6. Running the Project
+
+### 6.1 Preprocessing & EDA
+```bash
+python Scripts/Milestone1.py
+python Scripts/Milestone2.py
+python Scripts/Milestone3.py
+streamlit run Scripts/app.py --server.port 8501
+
