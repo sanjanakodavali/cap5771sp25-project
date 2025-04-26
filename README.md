@@ -95,7 +95,6 @@ conda activate cap5771
 ## 6. Running the Project
 
 ### 6.1 Preprocessing & EDA
-```bash
 python Scripts/Milestone1.py
 python Scripts/Milestone2.py
 python Scripts/Milestone3.py
