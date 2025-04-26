@@ -61,14 +61,13 @@ cap5771sp25-project/
 ├── Scripts/                  
 │   ├── Milestone1.py                       # Preprocessing & EDA
 │   ├── Milestone2.py                       # Feature engineering & modeling (this milestone)
-│   ├── Milestone3.ipynb                    # Evaluation & interpretation
-│   ├── app.py                              # Streamlit dashboard
-│   └── visualization.py                    # Plotting utils & SHAP analysis
+│   ├── Milestone3.py                       # Evaluation & interpretation
+│   └── app.py                              # Streamlit dashboard
 │
 ├── Report/                   
-│   ├── Milestone1.pdf
-│   ├── Milestone2.pdf                      # This milestone's report
-│   └── Milestone3.pdf
+│   ├── Milestone1.pdf                      # Milestone1's report
+│   ├── Milestone2.pdf                      # Milestone2's report
+│   └── Milestone3.pdf                      # Milestone3's report
 │
 ├── requirements.txt                        # pip dependencies
 └── environment.yml                         # Conda environment spec
