@@ -71,7 +71,7 @@ cap5771sp25-project/
 │
 ├── requirements.txt          # pip dependencies
 └── environment.yml           # Conda environment spec
-'''bash
+```
 
 ---
 
