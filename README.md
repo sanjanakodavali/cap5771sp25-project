@@ -1,9 +1,3 @@
-# (1) Clone & enter your repo
-git clone https://github.com/<your-username>/cap5771sp25-project.git
-cd cap5771sp25-project
-
-# (2) Overwrite README.md with your full content
-cat > README.md << 'EOF'
 # CAP5771 SP25 Project README
 
 > **Personalized Medication Recommendation System**
@@ -55,7 +49,7 @@ During **Milestone 2**, we focused on advanced data transformations and baseline
 ---
 
 ## 4. Repository Structure
-\`\`\`bash
+```bash
 cap5771sp25-project/
 ├── Data/                     # Raw & processed data
 │   ├── data_access_info.txt  # How to obtain full datasets
@@ -77,7 +71,7 @@ cap5771sp25-project/
 │
 ├── requirements.txt          # pip dependencies
 └── environment.yml           # Conda environment spec
-\`\`\`
+'''bash
 
 ---
 
