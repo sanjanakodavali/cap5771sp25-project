@@ -49,28 +49,30 @@ During **Milestone 2**, we focused on advanced data transformations and baseline
 ---
 
 ## 4. Repository Structure
+
 ```bash
 cap5771sp25-project/
-├── Data/                     # Raw & processed data
-│   ├── data_access_info.txt  # How to obtain full datasets
-│   ├── drug200.csv           # Sample interaction data
-│   ├── medicine_dataset.csv.zip
+├── Data/                     
+│   ├── data_access_info.txt                # How to obtain full datasets
+│   ├── drug200.csv                         # Sample interaction data
+│   ├── medicine_dataset.csv.zip            # Raw data file
 │   └── medicine_prescription_records.csv.zip
 │
-├── Scripts/                  # Code & notebooks
-│   ├── Milestone1.py         # Preprocessing & EDA
-│   ├── Milestone2.py         # Feature engineering & modeling (this milestone)
-│   ├── Milestone3.ipynb      # Evaluation & interpretation
-│   ├── app.py                # Streamlit dashboard
-│   └── visualization.py      # Plotting utils & SHAP analysis
+├── Scripts/                  
+│   ├── Milestone1.py                       # Preprocessing & EDA
+│   ├── Milestone2.py                       # Feature engineering & modeling (this milestone)
+│   ├── Milestone3.ipynb                    # Evaluation & interpretation
+│   ├── app.py                              # Streamlit dashboard
+│   └── visualization.py                    # Plotting utils & SHAP analysis
 │
-├── Report/                   # Written reports
+├── Report/                   
 │   ├── Milestone1.pdf
-│   ├── Milestone2.pdf        # This milestone's report
+│   ├── Milestone2.pdf                      # This milestone's report
 │   └── Milestone3.pdf
 │
-├── requirements.txt          # pip dependencies
-└── environment.yml           # Conda environment spec
+├── requirements.txt                        # pip dependencies
+└── environment.yml                         # Conda environment spec
+
 ```
 
 ---
