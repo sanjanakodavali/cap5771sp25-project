@@ -136,6 +136,6 @@ Open your browser at \`http://localhost:8501\`.
 ## 9. Collaboration & Submission
 - **Repository name**: \`cap5771sp25-project\`  
 - **Collaborators**: TA Jimmy (@JimmyRaoUF), Grader Daniyal (@abbasidaniyal), Dr. Cruz (@lcruz-cas), Dr. Grant (@cegme)  
-- **Gradescope**: Ensure this exact URL is linked for grading  
+- **Gradescope**: Ensured this exact URL is linked for grading  
 
 ---
