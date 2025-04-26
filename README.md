@@ -100,24 +100,24 @@ conda activate cap5771
 ## 6. Running the Project
 
 ### 6.1 Preprocessing & EDA
-\`\`\`bash
+```bash
 python Scripts/Milestone1.py
-\`\`\`
+```
 
 ### 6.2 Feature Engineering & Modeling
-\`\`\`bash
+```bash
 python Scripts/Milestone2.py
-\`\`\`
+```
 
 ### 6.3 Advanced Evaluation
-\`\`\`bash
+```bash
 jupyter notebook Scripts/Milestone3.ipynb
-\`\`\`
+```
 
 ### 6.4 Dashboard
-\`\`\`bash
+```bash
 streamlit run Scripts/app.py --server.port 8501
-\`\`\`
+```
 Open your browser at \`http://localhost:8501\`.
 
 ---
@@ -139,11 +139,3 @@ Open your browser at \`http://localhost:8501\`.
 - **Gradescope**: Ensure this exact URL is linked for grading  
 
 ---
-
-*Last updated: April 25, 2025*
-EOF
-
-# (3) Stage, commit, and push
-git add README.md
-git commit -m "Add comprehensive README with full project details"
-git push origin main
