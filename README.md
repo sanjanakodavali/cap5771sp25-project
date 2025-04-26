@@ -76,24 +76,24 @@ cap5771sp25-project/
 ---
 
 ## 5. Setup Instructions
-\`\`\`bash
+
+```bash
 # 1. Clone the repository
 git clone https://github.com/<your-username>/cap5771sp25-project.git
 cd cap5771sp25-project
 
-# 2. Create & activate a virtual environment (venv)
+# 2. Create & activate a virtual environment
 python3 -m venv venv
 source venv/bin/activate
 
 # 3. Install dependencies
-git pull origin main  # ensure you have latest code
 pip install --upgrade pip
 pip install -r requirements.txt
 
 # Or using Conda:
 conda env create -f environment.yml
 conda activate cap5771
-\`\`\`
+```
 
 ---
 
