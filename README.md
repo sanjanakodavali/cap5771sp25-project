@@ -124,7 +124,7 @@ Open your browser at \`http://localhost:8501\`.
 ---
 
 ## 7. Demo Video
-(https://uflorida-my.sharepoint.com/:v:/g/personal/asmitha_ramesh_ufl_edu/EStyCJHH3eBMlLovxOFASXkB7CbGC6gTai_-kilYa3QimA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=C2W6ZZ)
+https://uflorida-my.sharepoint.com/:v:/g/personal/asmitha_ramesh_ufl_edu/EStyCJHH3eBMlLovxOFASXkB7CbGC6gTai_-kilYa3QimA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=C2W6ZZ
 
 ---
 
