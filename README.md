@@ -1,3 +1,9 @@
+# 1. Clone your GitHub repository (if not already done)
+git clone https://github.com/<your-username>/cap5771sp25-project.git
+cd cap5771sp25-project
+
+# 2. Create or overwrite README.md with the full content
+cat > README.md << 'EOF'
 # CAP5771 SP25 Project README
 
 > **Personalized Medication Recommendation System**
@@ -49,7 +55,7 @@ During **Milestone 2**, we focused on advanced data transformations and baseline
 ---
 
 ## 4. Repository Structure
-```bash
+\`\`\`bash
 cap5771sp25-project/
 ├── Data/                     # Raw & processed data
 │   ├── data_access_info.txt  # How to obtain full datasets
@@ -60,9 +66,10 @@ cap5771sp25-project/
 ├── Scripts/                  # Code & notebooks
 │   ├── Milestone1.py         # Preprocessing & EDA
 │   ├── Milestone2.py         # Feature engineering & modeling (this milestone)
-│   ├── Milestone3.py         # Evaluation & interpretation
+│   ├── Milestone3.ipynb      # Evaluation & interpretation
 │   ├── app.py                # Streamlit dashboard
-│ 
+│   └── visualization.py      # Plotting utils & SHAP analysis
+│
 ├── Report/                   # Written reports
 │   ├── Milestone1.pdf
 │   ├── Milestone2.pdf        # This milestone's report
@@ -70,33 +77,79 @@ cap5771sp25-project/
 │
 ├── requirements.txt          # pip dependencies
 └── environment.yml           # Conda environment spec
+\`\`\`
 
 ---
 
 ## 5. Setup Instructions
-# 1. Clone the repo
-git clone https://github.com/<username>/cap5771sp25-project.git
+\`\`\`bash
+# 1. Clone the repository
+git clone https://github.com/<your-username>/cap5771sp25-project.git
 cd cap5771sp25-project
 
-# 2. Create & activate a venv
+# 2. Create & activate a virtual environment (venv)
 python3 -m venv venv
 source venv/bin/activate
 
 # 3. Install dependencies
+git pull origin main  # ensure you have latest code
 pip install --upgrade pip
 pip install -r requirements.txt
 
 # Or using Conda:
 conda env create -f environment.yml
 conda activate cap5771
+\`\`\`
 
 ---
 
 ## 6. Running the Project
 
 ### 6.1 Preprocessing & EDA
+\`\`\`bash
 python Scripts/Milestone1.py
-python Scripts/Milestone2.py
-python Scripts/Milestone3.py
-streamlit run Scripts/app.py --server.port 8501
+\`\`\`
 
+### 6.2 Feature Engineering & Modeling
+\`\`\`bash
+python Scripts/Milestone2.py
+\`\`\`
+
+### 6.3 Advanced Evaluation
+\`\`\`bash
+jupyter notebook Scripts/Milestone3.ipynb
+\`\`\`
+
+### 6.4 Dashboard
+\`\`\`bash
+streamlit run Scripts/app.py --server.port 8501
+\`\`\`
+Open your browser at \`http://localhost:8501\`.
+
+---
+
+## 7. Demo Video
+▶️ [YouTube Walkthrough (5 min)](https://youtu.be/REPLACE_WITH_YOUR_LINK)
+
+---
+
+## 8. Data Dependencies
+- **Sample CSVs** in \`Data/\` (5% stratified sample)  
+- **Full datasets** (>100 MB) available per \`Data/data_access_info.txt\`  
+
+---
+
+## 9. Collaboration & Submission
+- **Repository name**: \`cap5771sp25-project\`  
+- **Collaborators**: TA Jimmy (@JimmyRaoUF), Grader Daniyal (@abbasidaniyal), Dr. Cruz (@lcruz-cas), Dr. Grant (@cegme)  
+- **Gradescope**: Ensure this exact URL is linked for grading  
+
+---
+
+*Last updated: April 25, 2025*
+EOF
+
+# 3. Stage, commit, and push
+git add README.md
+git commit -m "Add comprehensive README with full project details"
+git push origin main
