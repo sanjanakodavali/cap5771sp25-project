@@ -76,25 +76,99 @@ cap5771sp25-project/
 
 ---
 
-## 5. Setup Instructions
+## Setup Instructions
+
+This project helps recommend the right medicine using a smart machine learning model. To see how it works, we’ve made a simple dashboard you can run right from your computer (or Google Colab). Just follow the steps below.
+
+---
+
+###  What You Need First (Before We Begin)
+
+Make sure you have these ready:
+
+- **Python** (version 3.7 or higher)
+- **pip** (Python’s package installer)
+- **Git** (optional — helps you download the project quickly)
+
+If you're using **Google Colab**, don’t worry — you don’t need to install Python. We’ll give you a simple way to run it there too!
+
+---
+
+###  Step 1: Get the Project Files
+
+#### Option 1: Using Git (Fastest)
 
 ```bash
-# 1. Clone the repository
-git clone https://github.com/<your-username>/cap5771sp25-project.git
-cd cap5771sp25-project
-
-# 2. Create & activate a virtual environment
-python3 -m venv venv
-source venv/bin/activate
-
-# 3. Install dependencies
-pip install --upgrade pip
-pip install -r requirements.txt
-
-# Or using Conda:
-conda env create -f environment.yml
-conda activate cap5771
+git clone https://github.com/sanjanakodavali/cap5771sp25-project.git
 ```
+
+#### Option 2: Manual Download
+
+1. Go to the GitHub page for this project  
+2. Click the green **"Code"** button  
+3. Choose **Download ZIP**  
+4. Unzip it and open the folder in VS Code or any editor
+
+---
+
+###  Step 2: Install the Tools (Dependencies)
+
+#### 🖥️ If You're on a Computer (Local Setup)
+
+1. Open a terminal in the project folder  
+2. Run this to create a private workspace:
+
+```bash
+python -m venv venv
+```
+
+3. Activate the environment:
+
+- **Windows:**
+```bash
+venv\Scripts\activate
+```
+- **Mac/Linux:**
+```bash
+source venv/bin/activate
+```
+
+4. Install all necessary tools:
+
+```bash
+pip install -e .
+```
+
+---
+
+####  If You're Using Google Colab
+
+Just copy and run this in a code cell:
+
+```python
+!pip install streamlit shap scikit-learn xgboost matplotlib plotly joblib
+```
+
+Note: You can't launch the full dashboard inside Colab, but you can test the models and SHAP visualizations.
+
+---
+
+### ▶️Step 3: Run the Dashboard
+
+If you're on your computer, run this to open the dashboard in your browser:
+
+```bash
+streamlit run dashboard/app.py
+```
+
+You'll see:
+
+-  Model scores like Accuracy and F1
+-  ROC and PR curves
+-  Top features influencing predictions
+-  SHAP plots to explain decisions
+
+---
 
 ---
 
