@@ -112,7 +112,7 @@ python Scripts/Milestone2.py
 
 ### 6.3 Advanced Evaluation
 ```bash
-jupyter notebook Scripts/Milestone3.ipynb
+python Scripts/Milestone3.py
 ```
 
 ### 6.4 Dashboard
