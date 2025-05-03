@@ -70,6 +70,7 @@ cap5771sp25-project/
 │   └── Milestone3.pdf                      # Milestone3's report
 │
 ├── requirements.txt                        # pip dependencies
+├── setup.py                                # Package information
 └── environment.yml                         # Conda environment spec
 
 ```
@@ -113,7 +114,7 @@ git clone https://github.com/sanjanakodavali/cap5771sp25-project.git
 
 ###  Step 2: Install the Tools (Dependencies)
 
-#### 🖥️ If You're on a Computer (Local Setup)
+#### If You're on a Computer (Local Setup)
 
 1. Open a terminal in the project folder  
 2. Run this to create a private workspace:
@@ -153,7 +154,7 @@ Note: You can't launch the full dashboard inside Colab, but you can test the mod
 
 ---
 
-### ▶️Step 3: Run the Dashboard
+### Step 3: Run the Dashboard
 
 If you're on your computer, run this to open the dashboard in your browser:
 
@@ -170,7 +171,6 @@ You'll see:
 
 ---
 
----
 
 ## 6. Running the Project
 
